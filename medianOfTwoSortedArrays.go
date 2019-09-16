@@ -4,6 +4,15 @@ import (
 	"math"
 )
 
+/**
+	Example 2:
+
+	nums1 = [1, 2]
+	nums2 = [3, 4]
+
+	The median is (2 + 3)/2 = 2.5
+ */
+
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	m := len(nums1)
 	n := len(nums2)
